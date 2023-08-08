@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/repo_name/static/css/main.c82e3b0d.css",
-    "main.js": "/repo_name/static/js/main.9b949a97.js",
-    "static/media/Setup Wizard.gif": "/repo_name/static/media/Setup Wizard.fe5df36cbb8bb0c9bd56.gif",
-    "static/media/github.svg": "/repo_name/static/media/github.cc0d07482d64477b05566958874c1a66.svg",
-    "static/media/instagram.svg": "/repo_name/static/media/instagram.e3bbe548c469fec249f167097daf9aeb.svg",
-    "static/media/react.svg": "/repo_name/static/media/react.b6a1db8a79e364e811cf61e3c8bfda64.svg",
-    "static/media/javascript.svg": "/repo_name/static/media/javascript.3d94b44e1368baa8b3960a63f24c392f.svg",
-    "index.html": "/repo_name/index.html",
-    "static/media/facebook.svg": "/repo_name/static/media/facebook.f01c7f9340ce277ba986ac753ec5284b.svg",
-    "static/media/css3.svg": "/repo_name/static/media/css3.40b8137f30d1bfe88f0babffde7172a6.svg",
-    "static/media/html.svg": "/repo_name/static/media/html.50dfb7630f504b04b5d4cd134619fe3c.svg",
-    "main.c82e3b0d.css.map": "/repo_name/static/css/main.c82e3b0d.css.map",
-    "main.9b949a97.js.map": "/repo_name/static/js/main.9b949a97.js.map"
+    "main.css": "/profile3/static/css/main.c82e3b0d.css",
+    "main.js": "/profile3/static/js/main.ccc2f211.js",
+    "static/media/Setup Wizard.gif": "/profile3/static/media/Setup Wizard.fe5df36cbb8bb0c9bd56.gif",
+    "static/media/github.svg": "/profile3/static/media/github.cc0d07482d64477b05566958874c1a66.svg",
+    "static/media/instagram.svg": "/profile3/static/media/instagram.e3bbe548c469fec249f167097daf9aeb.svg",
+    "static/media/react.svg": "/profile3/static/media/react.b6a1db8a79e364e811cf61e3c8bfda64.svg",
+    "static/media/javascript.svg": "/profile3/static/media/javascript.3d94b44e1368baa8b3960a63f24c392f.svg",
+    "index.html": "/profile3/index.html",
+    "static/media/facebook.svg": "/profile3/static/media/facebook.f01c7f9340ce277ba986ac753ec5284b.svg",
+    "static/media/css3.svg": "/profile3/static/media/css3.40b8137f30d1bfe88f0babffde7172a6.svg",
+    "static/media/html.svg": "/profile3/static/media/html.50dfb7630f504b04b5d4cd134619fe3c.svg",
+    "main.c82e3b0d.css.map": "/profile3/static/css/main.c82e3b0d.css.map",
+    "main.ccc2f211.js.map": "/profile3/static/js/main.ccc2f211.js.map"
   },
   "entrypoints": [
     "static/css/main.c82e3b0d.css",
-    "static/js/main.9b949a97.js"
+    "static/js/main.ccc2f211.js"
   ]
 }
