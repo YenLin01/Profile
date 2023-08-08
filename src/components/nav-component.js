@@ -6,12 +6,12 @@ const NavComponent = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/">首頁</Navbar.Brand>
+        <Navbar.Brand href="/profile">首頁</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/portfolio">作品集</Nav.Link>
-            <Nav.Link href="/resume">我的履歷</Nav.Link>
+            <Nav.Link href="/profile/portfolio">作品集</Nav.Link>
+            <Nav.Link href="/profile/resume">我的履歷</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
