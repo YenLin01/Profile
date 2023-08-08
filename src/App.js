@@ -12,7 +12,7 @@ import PortfolioComponent from "./components/PortfolioComponent";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePageComponent />}></Route>
