@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -12,19 +12,19 @@ import PortfolioComponent from "./components/PortfolioComponent";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
-        <Route path="/profile" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<HomePageComponent />}></Route>
-          <Route path="/profile/resume" element={<AboutMe AOS={AOS} />}></Route>
+          <Route path="resume" element={<AboutMe AOS={AOS} />}></Route>
 
           <Route
-            path="/profile/portfolio"
+            path="portfolio"
             element={<PortfolioComponent AOS={AOS} />}
           ></Route>
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
