@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Layout from "./components/Layout";
 import AboutMe from "./components/AboutMe";
 import { HomePageComponent } from "./components/HomePageComponent";
+import React from "react";
 
 import PortfolioComponent from "./components/PortfolioComponent";
 
