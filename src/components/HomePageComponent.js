@@ -6,10 +6,10 @@ export const HomePageComponent = () => {
   const navigate = useNavigate();
 
   const handleResumeButton = () => {
-    navigate("/profile/resume");
+    navigate("/resume");
   };
   const handlePortfolioButton = () => {
-    navigate("/profile/portfolio");
+    navigate("/portfolio");
   };
 
   return (
