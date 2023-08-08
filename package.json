@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "set PUBLIC_URL=/repo_name&& react-scripts build",
+    "build": "set PUBLIC_URL=/profile3&& react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
