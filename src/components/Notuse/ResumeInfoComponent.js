@@ -1,5 +1,6 @@
 import React from "react";
 import icon from "../../images/portfolio/ICONS/icon.js";
+import { Link } from "react-router-dom";
 
 const ResumeInfoComponent = () => {
   return (
@@ -59,7 +60,7 @@ const ResumeInfoComponent = () => {
           </div>
         </section>
 
-        <section class="picture">
+        <section className="picture">
           <h3>或者使用:</h3>
           <img
             src="./Pictures/81976033_2769606163078465_6680415702978920448_o.jpg"
@@ -68,19 +69,13 @@ const ResumeInfoComponent = () => {
         </section>
       </main>
       <footer>
-        <a href="#" className="resumeSocalMedia">
-          <img src={icon.facebook} alt="facebook" title="facebook page" />
-        </a>
-        <a href="#" className="resumeSocalMedia">
-          <img src={icon.instagram} alt="instagram" title="instagram page" />
-        </a>
-        <a href="#" className="resumeSocalMedia">
+        <Link to="https://github.com/YenLin01" className="resumeSocalMedia">
           <img src={icon.github} alt="github" title="github page" />
-        </a>
+        </Link>
         <p>
-          <a href="https://storyset.com/computer">
+          <Link to="https://storyset.com/computer">
             Computer illustrations by Storyset
-          </a>
+          </Link>
         </p>
       </footer>
     </div>

@@ -4,10 +4,10 @@ import homepageG from "../../images/homepage/Setup Wizard.gif";
 const AMHcomponent = ({ AOS }) => (
   <div
     data-aos="zoom-in-down"
-    className="container row row-cols-1 row-cols-sm-2"
+    classNameName="container row row-cols-1 row-cols-sm-2"
   >
-    <img src={homepageG} className="" alt="img"></img>
-    <div className="HeaderDiv">
+    <img src={homepageG} classNameName="" alt="img"></img>
+    <div classNameName="HeaderDiv">
       <h1>Hey，我是 Yen，很高興認識你！</h1>
 
       <p>

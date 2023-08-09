@@ -11,6 +11,7 @@ import { HomePageComponent } from "./components/HomePageComponent";
 import PortfolioComponent from "./components/PortfolioComponent";
 
 function App() {
+  console.log(process.env.PUBLIC_URL);
   return (
     <BrowserRouter>
       <Routes>

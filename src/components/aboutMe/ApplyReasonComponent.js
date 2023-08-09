@@ -2,11 +2,11 @@ import React from "react";
 
 const ApplyReasonComponent = () => {
   return (
-    <div className="container-lg " style={{ paddingTop: "2rem" }}>
-      <h3 data-aos="zoom-in" className="Atitle">
+    <div classNameName="container-lg " style={{ paddingTop: "2rem" }}>
+      <h3 data-aos="zoom-in" classNameName="Atitle">
         申請的動機
       </h3>
-      <div data-aos="fade-right" className="container-lg">
+      <div data-aos="fade-right" classNameName="container-lg">
         <p>
           對於程式的興趣是由，Excel開始的，Excel
           有可以創造出數組公式的功能，能用來幫助使用者更高效地處理和分析資料。
@@ -30,7 +30,7 @@ const ApplyReasonComponent = () => {
           第一次挑戰自己實作前端網站，體認到我在於版面配置與各個module的使用上，還有著許多的不足，但在這之中我嘗試著去構想每一個Component與動畫效果如何去放置，
           深入去理解在Boostrap 與 Bootstrap-react
           的範例與他們在module上是如何去在Class
-          中所使用的每個屬性，嘗試著去理解為何他們這樣定義這個class，又或者他們想要給人帶來什麼樣的效果。最終做出了一個這樣一個成品。
+          中所使用的每個屬性，嘗試著去理解為何他們這樣定義這個className，又或者他們想要給人帶來什麼樣的效果。最終做出了一個這樣一個成品。
         </p>
       </div>
     </div>

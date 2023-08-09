@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AMHcomponent from "./aboutMe/AMHcomponent";
-import ResumeInfoComponent from "./Notuse/ResumeInfoComponent";
+
 import AValuesComponent from "./aboutMe/AValuesComponent";
 import ALanguageComponent from "./aboutMe/ALanguageComponent";
 import PorblemSolveComponent from "./aboutMe/ProblemSolveComponent";
