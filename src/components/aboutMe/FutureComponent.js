@@ -2,11 +2,11 @@ import React from "react";
 
 const FutureComponent = () => {
   return (
-    <div classNameName="container-lg" style={{ paddingTop: "2rem" }}>
-      <h3 data-aos="zoom-in" classNameName="Atitle">
+    <div className="container-lg" style={{ paddingTop: "2rem" }}>
+      <h3 data-aos="zoom-in" className="Atitle">
         未來規劃
       </h3>
-      <div data-aos="fade-right" classNameName="container-lg">
+      <div data-aos="fade-right" className="container-lg">
         <p>
           以今年開始我制定五年的計畫，
           首先為自己設定了一年的學習時間。目前已經來到下半年，

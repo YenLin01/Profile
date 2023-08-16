@@ -1,6 +1,7 @@
 import React from "react";
 import homepageG from "../images/homepage/Setup Wizard.gif";
 import { useNavigate } from "react-router-dom";
+import AMHcomponent from "./aboutMe/AMHcomponent";
 
 export const HomePageComponent = () => {
   const navigate = useNavigate();
@@ -14,19 +15,9 @@ export const HomePageComponent = () => {
 
   return (
     <div className="resumeColor">
+      <AMHcomponent />
       <main>
         <div className="container py-4">
-          <div className="row align-items-md-stretch">
-            <img src={homepageG} alt="img" style={{ width: "30rem" }}></img>
-
-            <div className="col-md-6">
-              <div className="h-100 p-5 resumeColor text-bg-selfColor  rounded-3">
-                <h1 style={{ paddingTop: "3rem" }}>歡迎來到YenLin的主頁</h1>
-                <p style={{ paddingTop: "1rem" }}>這裡是還未寫的部分</p>
-              </div>
-            </div>
-          </div>
-
           <div className="row align-items-md-stretch">
             <div className="col-md-6">
               <div className="h-100 p-5 text-bg-dark rounded-3">
@@ -40,7 +31,7 @@ export const HomePageComponent = () => {
                 </button>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 text-black">
               <div className="h-100 p-5 bg-body-tertiary border rounded-3">
                 <h2>我的作品集</h2>
                 <p>

@@ -15,7 +15,6 @@ const ResumeComponent = ({ AOS }) => {
   }, []);
   return (
     <div className=" p-3 mb-2 resumeColor text-white">
-      <AMHcomponent AOS={AOS} />
       <AValuesComponent AOS={AOS} />
       <ApplyReasonComponent AOS={AOS} />
       <ALanguageComponent AOS={AOS} />

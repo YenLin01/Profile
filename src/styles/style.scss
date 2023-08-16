@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Noto Sans TC", sans-serif;
 }
-
+@import "./vari";
 // Custom.scss
 // Option B: Include parts of Bootstrap
 
@@ -40,5 +40,3 @@
 @import "../../node_modules/bootstrap/scss/utilities/api";
 
 // 8. Add additional custom code here
-
-@import "./vari";

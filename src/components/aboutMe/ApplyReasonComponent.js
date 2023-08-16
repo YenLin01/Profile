@@ -2,11 +2,11 @@ import React from "react";
 
 const ApplyReasonComponent = () => {
   return (
-    <div classNameName="container-lg " style={{ paddingTop: "2rem" }}>
-      <h3 data-aos="zoom-in" classNameName="Atitle">
-        申請的動機
+    <div className="container-lg " style={{ paddingTop: "2rem" }}>
+      <h3 data-aos="zoom-in" className="Atitle">
+        申請的動機 創造性的東西
       </h3>
-      <div data-aos="fade-right" classNameName="container-lg">
+      <div data-aos="fade-right" className="container-lg">
         <p>
           對於程式的興趣是由，Excel開始的，Excel
           有可以創造出數組公式的功能，能用來幫助使用者更高效地處理和分析資料。

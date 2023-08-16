@@ -7,7 +7,7 @@ const NavComponent = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Link className="NavD" to="/profile">
+        <Link className="NavD" to="/">
           首頁
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +17,7 @@ const NavComponent = () => {
               作品集
             </Link>
             <Link className="NavD" to="/resume">
-              我的履歷
+              關於我...
             </Link>
           </Nav>
         </Navbar.Collapse>

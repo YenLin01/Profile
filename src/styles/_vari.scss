@@ -1,5 +1,19 @@
 .resumeColor {
   background-color: rgb(56, 54, 54);
+  color: aliceblue;
+}
+
+.headPandT {
+  display: flex;
+  margin: 0rem 2rem;
+  flex-wrap: wrap;
+  img {
+    width: 40%;
+    padding: 1rem;
+  }
+  div {
+    width: 50%;
+  }
 }
 
 .HeaderDiv {
@@ -64,6 +78,16 @@
 .inText {
   font-size: 0.5rem;
 }
+@media (max-width: 990px) {
+  .headPandT {
+    img {
+      width: 100%;
+    }
+    div {
+      width: 100%;
+    }
+  }
+}
 
 @media (max-width: 770px) {
   .languageBox {
@@ -88,7 +112,7 @@
       width: 50%;
       color: black;
       border: 1px solid rgb(0, 0, 0);
-      background-color: #91cb8a;
+      background-color: #eae4e4;
       border-radius: 10px;
       margin: 10px;
       padding: 0.3rem 1rem;

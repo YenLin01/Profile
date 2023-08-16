@@ -6,6 +6,121 @@
   font-family: "Noto Sans TC", sans-serif;
 }
 
+.resumeColor {
+  background-color: rgb(56, 54, 54);
+  color: aliceblue;
+}
+
+.headPandT {
+  display: flex;
+  margin: 0rem 2rem;
+  flex-wrap: wrap;
+}
+.headPandT img {
+  width: 40%;
+  padding: 1rem;
+}
+.headPandT div {
+  width: 50%;
+}
+
+.HeaderDiv h1, .HeaderDiv .h1 {
+  padding-bottom: 1rem;
+}
+
+.Atitle {
+  padding: 1rem 0rem;
+}
+
+.text-bg-selfColor {
+  color: #49bb3f !important;
+}
+
+.homepageImagePadding {
+  padding: 2rem;
+}
+
+.give1Mergin {
+  margin: 10px;
+}
+
+.col-md-HomepageComtainer1 {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.col-md-HomepageComtainer2 {
+  flex: 0 0 auto;
+  width: 60%;
+}
+
+.languageBox div {
+  width: 35%;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #eae4e4;
+  border-radius: 10px;
+  margin: 20px 50px;
+  padding: 0.3rem 1rem;
+}
+
+.ProblemBox div {
+  width: 15%;
+  color: rgb(0, 0, 0);
+  background-color: #eae4e4;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 0.3rem 1rem;
+}
+
+.NavD {
+  text-decoration: none;
+  padding: 0.3rem 1rem;
+  color: black;
+  font-weight: 200;
+}
+
+.inText {
+  font-size: 0.5rem;
+}
+
+@media (max-width: 990px) {
+  .headPandT img {
+    width: 100%;
+  }
+  .headPandT div {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .languageBox div {
+    margin: 1rem;
+    width: 70%;
+  }
+  .ProblemBox {
+    margin: 1px;
+    height: 30%;
+  }
+  .ProblemBox div {
+    width: 70%;
+  }
+}
+@media (max-width: 1200px) {
+  .ProblemBox div {
+    width: 50%;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #eae4e4;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0.3rem 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .HeaderDiv {
+    padding-top: 3rem;
+  }
+}
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -7970,98 +8085,5 @@ progress {
   }
   .d-print-none {
     display: none !important;
-  }
-}
-.resumeColor {
-  background-color: rgb(56, 54, 54);
-}
-
-.HeaderDiv h1, .HeaderDiv .h1 {
-  padding-bottom: 1rem;
-}
-
-.Atitle {
-  padding: 1rem 0rem;
-}
-
-.text-bg-selfColor {
-  color: #49bb3f !important;
-}
-
-.homepageImagePadding {
-  padding: 2rem;
-}
-
-.give1Mergin {
-  margin: 10px;
-}
-
-.col-md-HomepageComtainer1 {
-  flex: 0 0 auto;
-  width: 30%;
-}
-
-.col-md-HomepageComtainer2 {
-  flex: 0 0 auto;
-  width: 60%;
-}
-
-.languageBox div {
-  width: 35%;
-  color: black;
-  border: 1px solid rgb(0, 0, 0);
-  background-color: #eae4e4;
-  border-radius: 10px;
-  margin: 20px 50px;
-  padding: 0.3rem 1rem;
-}
-
-.ProblemBox div {
-  width: 15%;
-  color: rgb(0, 0, 0);
-  background-color: #eae4e4;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 0.3rem 1rem;
-}
-
-.NavD {
-  text-decoration: none;
-  padding: 0.3rem 1rem;
-  color: black;
-  font-weight: 200;
-}
-
-.inText {
-  font-size: 0.5rem;
-}
-
-@media (max-width: 770px) {
-  .languageBox div {
-    margin: 1rem;
-    width: 70%;
-  }
-  .ProblemBox {
-    margin: 1px;
-    height: 30%;
-  }
-  .ProblemBox div {
-    width: 70%;
-  }
-}
-@media (max-width: 1200px) {
-  .ProblemBox div {
-    width: 50%;
-    color: black;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: #91cb8a;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 0.3rem 1rem;
-  }
-}
-@media (min-width: 1400px) {
-  .HeaderDiv {
-    padding-top: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
