@@ -5,5 +5,15 @@ import instagram from "./instagram.svg";
 import javascript from "./javascript.svg";
 import react from "./react.svg";
 import github from "./github.svg";
+import youtube from "./youtube.svg";
 
-export default { css, facebook, htmlS, instagram, javascript, react, github };
+export default {
+  css,
+  facebook,
+  htmlS,
+  instagram,
+  javascript,
+  react,
+  github,
+  youtube,
+};

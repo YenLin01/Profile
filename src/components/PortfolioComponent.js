@@ -1,9 +1,9 @@
 import { React, useEffect } from "react";
 import { Link } from "react-router-dom";
+import icon from "../images/portfolio/ICONS/icon";
+import p1 from "../images/portfolio/Pictures/p1.png";
 
 const PortfolioComponent = ({ AOS }) => {
-  // const [open, setOpen] = useState(false);
-
   useEffect(() => {
     AOS.init();
   }, []);
@@ -22,10 +22,16 @@ const PortfolioComponent = ({ AOS }) => {
             </div>
           </div>
         </section>
-        <div className="album py-5 bg-body-tertiary">
+
+        <div className="album py-5 bg-body-tertiary profile">
+          <div>
+            <img src={p1}></img>
+          </div>
           <Link to={"https://courseweb-0w0l.onrender.com/"}>
             點我前往profile
           </Link>
+          <img src={icon.github} alt="githun"></img>
+          <img src={icon.youtube} ait="youtube"></img>
         </div>
       </main>
     </div>

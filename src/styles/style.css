@@ -11,6 +11,13 @@
   color: aliceblue;
 }
 
+.profile {
+  display: flex;
+}
+.profile div img {
+  width: 30%;
+}
+
 .headPandT {
   display: flex;
   margin: 0rem 2rem;
