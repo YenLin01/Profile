@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import NotAdd from "./Notuse/notAdd";
 
 const ResumeComponent = ({ AOS }) => {
   useEffect(() => {
