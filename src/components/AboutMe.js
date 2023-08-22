@@ -1,27 +1,250 @@
 import React, { useEffect } from "react";
-import AMHcomponent from "./aboutMe/AMHcomponent";
-
-import AValuesComponent from "./aboutMe/AValuesComponent";
-import ALanguageComponent from "./aboutMe/ALanguageComponent";
-import PorblemSolveComponent from "./aboutMe/ProblemSolveComponent";
-import ContactComponent from "./aboutMe/ContactComponent";
-import ApplyReasonComponent from "./aboutMe/ApplyReasonComponent";
-import FutureComponent from "./aboutMe/FutureComponent";
-import SelfLearningComponent from "./aboutMe/SelfLearningComponent";
+import NotAdd from "./Notuse/notAdd";
 
 const ResumeComponent = ({ AOS }) => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <div className=" p-3 mb-2 resumeColor text-white">
-      <AValuesComponent AOS={AOS} />
-      <ApplyReasonComponent AOS={AOS} />
-      <ALanguageComponent AOS={AOS} />
-      <PorblemSolveComponent AOS={AOS} />
-      <FutureComponent AOS={AOS} />
-      <SelfLearningComponent AOS={AOS} />
-      <ContactComponent AOS={AOS} />
+    <div className=" p-3  resumeColor text-white aboutMe">
+      <div className="container-lg " style={{ paddingTop: "2rem" }}>
+        <h1 data-aos="zoom-in">學習期間的故事</h1>
+
+        <div data-aos="fade-right" className="container-lg">
+          <h2 data-aos="zoom-in" className="storyTitle">
+            學習動機
+          </h2>
+          <p data-aos="fade-right" className="container-lg">
+            在我上一份工作當中，我身為一位補習班老師，我負責教導國小國中的小朋友，其實在這份工作我並沒有待太久，因為我在這份工作中比起教學
+            更多的時間是在於處理與家長與其他事務並非著重在教的過程當中，在這份工作中也只待了一小段時間，由於錄取後經過了兩三個禮拜左右就接到了兵單，出於各種考慮，
+            如:補習班老師要帶班，若是我走了帶的班就會交由其他老師來接手，會造成其他老師業務上的困擾
+            ，諸如此類的理由，補習班的主任就把我炒了，在這份工作當中我也去反思了，我真的想做這種安穩的工作嗎?
+            我在這份工作中看到了我的未來就是持續10到20年教授著大同小異的內容，雖這份工作不難也很安逸，
+            但我現在還年輕我真的不該去嘗試一些新的事務嗎?
+          </p>
+
+          <h2 data-aos="zoom-in" className="storyTitle">
+            學習初期
+          </h2>
+          <p data-aos="fade-right" className="container-lg">
+            {" "}
+            對於程式的興趣是由，Excel開始的，Excel有可以創造出數組公式的功能，
+            能用來幫助使用者更高效地處理和分析資料。第一次成功創造出能夠大幅提升工作效率的公式時，那種成就感是無可替代的。
+            而在大學的工讀期間，我擔任過品檢員，那時有個負責處理公司內部網站的同事看到我所寫的公式，他說我邏輯還不錯以後可以考慮轉職工程師，
+            我那時候也當他在說玩笑話，且我就讀的科系也與資訊不相干，怕是重讀的話那也是一筆不小的金額，所以並沒有想太多。
+            而我在從補習班離職的那段期間，我想到了他的話,我就想或許我就來嘗試看看資工相關的東西。
+            那時各種自學的網課都在打廣告，很剛好的是看到的Udemy那時有在推一門wilson
+            Ren 的網頁全端課程，一堂只要390我腦袋一熱就直接給他買下去了，
+            我一開始對於資工並不是很熱血，只是抱這看看而已的心態來看這堂課，畢竟只要390比Netflex還便宜。
+            但隨著課堂中的各種練習，逐步地去建立的基礎的HTML網頁，到使用CSS去增加網頁的外觀，再到使用簡單的JS使網頁動起來的功能，我發現我其實真的很喜歡這種去創造出自己東西的感覺。
+          </p>
+          <h2 data-aos="zoom-in" className="storyTitle">
+            當兵發生的故事
+          </h2>
+          <p data-aos="fade-right" className="container-lg">
+            {" "}
+            在10月時，原本我那時就要入伍去當兵，但我剛好確診所以兵役又往後推，所以我直到12月才正式入伍，
+            在這段期間我也算是半工半讀，利用下班的時間去觀看課程，但我了解到我並不是一個可以半工半讀的人，因為效率很差，所以我打算在當完兵後就全心全意的學習程式。
+            其實在當兵的這段時間蠻辛苦的，在裡面的生活其實非常的不自由，且不能使用手機去複習課程，但我在軍中也有持續的學習，而在裡面能做的事就是用公發的筆記本寫東西。
+            在我那個單位有推行可以讓我們去寫今天的日記，但我都是把時間偷拿來我所想到的東西程式碼。目的就是不忘記我上週末學的東西。
+            很幸運的是，我鄰兵是資工系畢業的，所以當有機會就會跟他聊資工相關的事，
+            也許是程式思路上的一些意見，或者是未來該怎麼規劃，並且那時我也跟他聊到我應該選擇前端或者是後端之類的事情。在後面，因為分發單位的關係，我們就分別了，但直到現在我都還有再跟他聯絡。
+            下部隊之後雖然沒有新訓時期那麼忙碌，但在裡面基本上也是在處理
+            各種任務，在空閒的時間，我也會將想到的想法，或是想不通的地方寫在筆記本上。放假的時候用電腦去跑。
+            那時我正學到關於JS的部分，就是以for
+            loop來寫出一些打印出梯形星星等功能，我便會在做一些機械式工作時候去思考該如何寫出這段代碼?因為身體不是自由的，但腦袋是自由的。
+            可以去有東西可以思考真的很重要，在裡面一不小心就會想要放空，因為真的很漫長，又很無聊。
+          </p>
+          <h2 data-aos="zoom-in" className="storyTitle">
+            從退伍後到現在的生活
+          </h2>
+          <p data-aos="fade-right" className="container-lg">
+            {" "}
+            在四月中旬，我從軍隊退伍了，之後便是漫長的自學時光，
+            因為我知道我自己不是天才型，我是努力型的人，所以我認為基本功很重要，
+            我會強迫我自己在課程內有任何不懂的地方一定要去理解，而不是草草帶過，所以我學習的時間拉得比較長，網課的缺點在於有些地方不會講得很清楚
+            ，或者是在上課時照著步驟去實作，但由於課程執行版本不同等各種不同問題而造成Bug，無法及時得到解答，所以遇到問題時就必須自己去網路上去搜索相關資料，把不懂的東西弄懂。
+            在自學的一開始我就把目標訂在要能夠去在AppWork中爭取入學的機會，原本是打算申請batch22，
+            但在22的報名截止後，我才認為我累積了足夠的學習量，可以以JS去寫出想要的東西，所以目前才申請bacth
+            23，
+            至所以會想在報名前把基礎打好，是因為我知道在申請AppWork的人之中裡面不乏有很多的頂大生與天才，而我這種普通人就必須藉由比他們多好幾倍準備的時間去與他們較量。
+            我必須藉由自己的努力，先把網課內所教的東西去把他學好，有一定的基礎後才不會進度落後。
+          </p>
+        </div>
+        <div className="container-lg" style={{ paddingTop: "2rem" }}>
+          <h1 data-aos="zoom-in">選擇AppWork的原因</h1>
+          <div data-aos="fade-right" className="container-lg">
+            <p data-aos="fade-right">
+              <br />
+              至於為何我選擇AppWork 的原因主要是 AppWork
+              擁有高達90%就業錄取率，身為一個非本科生，去應徵與自己不相關的科系，且學校也並非特別亮眼，
+              我想我恐怕在面試官看到我的履歷的第一個瞬間就會把我刷掉，即使再努力怕是面試的機會也沒有，所以我想爭取在APPWork中能去展現自己決心與實力的機會。
+              在AppWork
+              中強調自己自學的能力，在看過課程說明會中學長姐的分享，都是強調說AppWork並不是以照本宣科的方式去授課，
+              而是以每天賦予作業的方式來給予學員，能夠獨立思考問題的能力，
+              再加上AppWork中有可以互相討論同學，能夠以不同角度去思考問題，在互相討論理解對方論點的同時可以學到很多東西。
+              老實說我更認同這種方式去做教學。
+              在每一次的實作中可以獲得經驗與知識，比起在課堂上按照進度的學習，更能理解到自身的不足，進而去補足所缺的能力。
+              <br />
+              如同這一份履歷，我的目標雖然是後端，使用React的次數屈指可數，但我嘗試著使用React的功能來創造屬於我自己的前端網站。
+              第一次挑戰自己實作前端網站，體認到我在於版面配置與各個module的使用上，還有著許多的不足，但在這之中我嘗試著去構想每一個版面與動畫如何去放置，
+              深入去理解在Boostrap 與 Bootstrap-react
+              的範例與他們在module上是如何去在Class
+              中所使用的每個屬性，嘗試著去理解為何他們這樣定義這個className，又或者他們想要給人帶來什麼樣的效果。最終做出了一個這樣一個成品。
+              <br />
+              我認為工程師的核心就是面對各種挑戰時，必須以創新的思維來解決問題。
+              面對複雜的難題，並在克服這些問題後獲得成就感和自豪。這種創新的能力正是我所嚮往的工作環境。我希望能夠投身於工程領域，
+              運用我的創造力和技能，解決現實生活中的難題，並不斷追求進步和成長。
+              對我來說，工程師的工作不僅是一種職業，更是一種充滿挑戰和機遇的生活態度。我期待著在這個領域中不斷學習與成長，不斷挑戰自己的極限，
+              為社會創造更多的價值和貢獻。我相信我將能成為一位有創新思維的工程師。
+            </p>
+          </div>
+        </div>
+        <div className="container-lg" style={{ paddingTop: "2rem" }}>
+          <h1 data-aos="zoom-in" className="Atitle">
+            未來規劃
+          </h1>
+          <div data-aos="fade-right" className="container-lg">
+            <p>
+              目前我如果要成為一位能夠獨當一面的工程師還有一段距離。首先，我會再多累積一些作品集，
+              對於下一個作品我已經有一個初步的發想，
+              我想製作一個以當前現有食材去做查詢的網站，目標客群是我這種會自己做料理的普通人，所以當食材不夠時，會有可以替代的調味料或者青菜選項。
+              而目前所做的教學網站不能算得上完美，所以我會增加新的功能或是去做優化，再來是會去新增其他網頁全端的作品。
+              再創造新作品的原因是可以以不同的角度去思考問題，如資料的要如何儲存才會更有效率?
+              或者是在前端的網頁中該如何去以什麼樣的動態效果去呈現?我想去以做中學來為自發現自己不足的地方
+              再來是身為一個非本科生，我肯定有許多關於後端工程師相關的基礎技能沒有掌握好，如:資料結構與演算法相關的知識，我認為我也沒有足夠的理解。
+              所以假設我最後不能參加AppWork，我下一步的規劃就是上述的規劃，而再更後面的規劃則是去參加各種的企業媒合，儘量去爭取能在相關產業工作的機會，去讓自己從初學者階段到達junior的階段。
+              因為工程師的能力累積有很大部分是從工作經驗中的實作中學去學習，
+              而我並不局限於我未來只會做後端相關的工作，我規劃在我後端到達一定的程度時，會去嘗試其他領域，App或者是AI相關的領域，如果有機會則會去爭取進修的機會。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-lg" style={{ paddingTop: "2rem" }}>
+        <h1 data-aos="zoom-in" className="Atitle">
+          我處理問題方式
+        </h1>
+        <div className="container-lg">
+          <div className="container row row-cols-1 row-cols-sm-2 ProblemBox">
+            <div data-aos="zoom-out">
+              <h4>理解問題</h4>
+              <p className="inText">
+                理解問題的要求和限制。
+                釐清問題是什麼，要解決什麼，並且收集所有可能有助於解決問題的信息和數據
+              </p>
+            </div>
+            <div data-aos="zoom-out">
+              <h4>制定計畫</h4>
+              <p className="inText">
+                根據問題的性質和需求，制定一個解決問題的計劃。
+                確定解決問題的步驟和方法，
+              </p>
+            </div>
+            <div data-aos="zoom-out">
+              <h4>執行計畫</h4>
+              <p className="inText">
+                根據計劃一步一步地進行解題。
+                確保按照計劃進行，並紀錄每一步的結果。
+              </p>
+            </div>
+            <div data-aos="zoom-out">
+              <h4>檢查結果</h4>
+              <p className="inText">
+                在解題過程中，經常檢查結果和進展。
+                確保你正確地解決了問題，並且沒有錯誤。
+              </p>
+            </div>
+            <div data-aos="zoom-out">
+              <h4>調整和優化</h4>
+              <p className="inText">
+                根據檢查的結果進行調整和優化。
+                持續改進我的解決方案，直到得到滿意的結果。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-lg" style={{ paddingTop: "2rem" }}>
+        <h1 data-aos="zoom-in" className="Atitle">
+          自學的經驗和困難的解決過程
+        </h1>
+        <div data-aos="fade-right" className="container-lg">
+          <p className="container-lg">
+            在自主學習的過程中，我認為到最具挑戰的情況往往涉及到要解決一個廣泛且複雜的問題。
+            這類問題常常需要花費大量的時間來尋找解決方法。舉例來說，在我開始建立這份履歷時遇到的問題，
+            最初我計劃使用Heroku來建立static
+            site，但由於今年Heroku停止了免費服務。所以需要使用其他的託管服務，
+            我隨後想到使用GitHub Pages來建立網站，但這也帶來了新的問題。
+            我試了很多次使用gh-pages來建立，但無論怎麼嘗試，GitHub
+            Pages都無法正常顯示我的內容。
+            在發生這個問題時，我只能根據各種可能性與參考網路上的討論
+            來對我的程式做了各種的調整與嘗試，但最後問題還是無法改善。只能使用最笨的方式就是重新建立一個新的React
+            App 直接把post 到gitHub到再來確認gitHub page可以正常顯示
+            然後慢慢地將我原本所做的東西，複製貼上到新的react App
+            上面，去慢慢的試到底是在哪個環節出錯，幸好是在蠻前面的地方發現這個錯誤，
+            是在使用BrowserRouter來放置我的Routes這才導致部分組件無法正常顯示。我以這個問題去尋找相關的討論，最終，我發現問題出在GitHub
+            Pages不支援SPA。
+            但由於我需要使用BrowserRouter的功能，所以我最後選擇了使用Render來托管我的履歷和作品，儘管render
+            的建立對當時我來說仍然是一個未嘗試過的挑戰，但總結來說是可行的。
+            經過了這一次的經驗，我應該要在面對困難時要能轉變思維，尋找替代方案。
+            我認為在當下的狀況我認為如果有人可以一起討論這個問題的話，
+            或許我可以更早地找到這個解決方案，節省了大量的時間和精力。
+          </p>
+          <h3 data-aos="zoom-in" className="Atitle"></h3>
+        </div>
+      </div>
+      <div className="container-lg" style={{ paddingTop: "2rem" }}>
+        <h1 data-aos="zoom-in" className="Atitle">
+          我人生的價值觀
+        </h1>
+        <div data-aos="fade-right" className="container-lg">
+          <h2>理性溝通</h2>
+          <p className="container-lg">
+            我認為日後成為任何公司或團隊的一員，我們要與他人合作，不同成長背景或者性格的人肯定會有不同的意見，
+            而我認為每個人提出他的意見必然是他從不同的角度對事情有了見解，雖然對方的回答不一定是最好的，
+            保持開放性的心態去傾聽其他人的想法必然會有收穫，
+            團隊夥伴進行溝通，將有助於團隊更加凝聚力量，發揮潛力，並取得共同成功。
+          </p>
+        </div>
+        <div data-aos="fade-right" className="container-lg">
+          <h2>持續學習</h2>
+          <p className="container-lg">
+            人生沒有任何的體驗與學習是白費的，即使在當下可能看不出它們的用處，但在某個時間點必然會派上用場。
+            我們所經歷的每一個時刻和學到的每一份知識都豐富了我們的內在世界，並在未來的生活中產生影響。
+            由於我是來自應用外語系，所以我在學習各種模組的文件的時候不會很吃力。
+            並且對於在探討最新的功能時也能在第一時間去了解。
+          </p>
+        </div>
+        <div data-aos="fade-right" className="container-lg">
+          <h2>創新思維</h2>
+          <p className="container-lg">
+            在生活中保持開放的心態，不斷尋找新的方法和解決方案，追求個人成長和進步，並在面對挑戰時勇於嘗試新的思維方式和方法。
+            就如同下廚，同一食材試各種不同的調味和烹飪方式，能產出大相逕庭的結果。
+            在程式上，我認為答案是要由不斷的碰壁中去嘗試出來的，而我喜愛嘗試新的方法，所以我不會僵化地認為某個特定的寫法就是唯一正確的解決方案。
+          </p>
+        </div>
+      </div>
+      <div className="container-lg" style={{ paddingTop: "2rem" }}>
+        <h1 data-aos="zoom-in" className="Atitle">
+          最後感謝...
+        </h1>
+        <div data-aos="fade-right" className="container-lg">
+          <p>
+            我想謝謝您耐心地看完我的網站，我是一個到很容易緊張的人，我想我面試當天肯定也會緊張到不行(如果有機會面試的話)，
+            所以我希望能在這裡把我想說的、我心路歷程在這裡盡量去呈現出來。所以整個網站的總字數高達4000多字以上。再次感謝各位!
+            <br />
+            <br />
+            <br />
+            <br />
+            "我夢想要成為一位工程師，且正走在成為一位工程師的路上。"
+            <br />
+            --"不要僅僅活在夢想中，踏出那一步，讓夢想成真。" – 布雷特·艾略特
+          </p>
+        </div>
+      </div>
+      <div className="footer"></div>
     </div>
   );
 };

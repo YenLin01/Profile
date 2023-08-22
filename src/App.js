@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<HomePageComponent />}></Route>
+          <Route index element={<HomePageComponent AOS={AOS} />}></Route>
           <Route path="resume" element={<AboutMe AOS={AOS} />}></Route>
 
           <Route

@@ -6,6 +6,8 @@ import javascript from "./javascript.svg";
 import react from "./react.svg";
 import github from "./github.svg";
 import youtube from "./youtube.svg";
+import MongoDB from "./MongoDB.svg";
+import Node from "./Node.svg";
 
 export default {
   css,
@@ -16,4 +18,6 @@ export default {
   react,
   github,
   youtube,
+  MongoDB,
+  Node,
 };
