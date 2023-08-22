@@ -18,12 +18,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePageComponent AOS={AOS} />}></Route>
-          <Route path="resume" element={<AboutMe AOS={AOS} />}></Route>
-
           <Route
             path="portfolio"
             element={<PortfolioComponent AOS={AOS} />}
           ></Route>
+          <Route path="aboutMe" element={<AboutMe AOS={AOS} />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

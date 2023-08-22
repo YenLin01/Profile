@@ -16,8 +16,14 @@ const NavComponent = () => {
             <Link className="NavD" to="/portfolio">
               作品集
             </Link>
-            <Link className="NavD" to="/resume">
+            <Link className="NavD" to="/aboutMe">
               關於我...
+            </Link>
+            <Link
+              className="NavD"
+              to="https://drive.google.com/file/d/1GtWX_X0Q2O5djqg8tMw8nvglEgKXaMqy/view"
+            >
+              履歷表
             </Link>
           </Nav>
         </Navbar.Collapse>
