@@ -22,7 +22,7 @@ function App() {
             path="portfolio"
             element={<PortfolioComponent AOS={AOS} />}
           ></Route>
-          <Route path="aboutMe" element={<AboutMe AOS={AOS} />}></Route>
+          <Route path="aboutMe" element={<AboutMe />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

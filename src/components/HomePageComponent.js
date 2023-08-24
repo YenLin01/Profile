@@ -3,8 +3,9 @@ import homepageG from "../images/homepage/Setup Wizard.gif";
 import { useNavigate } from "react-router-dom";
 import icon from "../images/portfolio/ICONS/icon";
 import { useEffect } from "react";
+import AOS from "aos";
 
-export const HomePageComponent = ({ AOS }) => {
+export const HomePageComponent = () => {
   useEffect(() => {
     AOS.init();
   }, []);
