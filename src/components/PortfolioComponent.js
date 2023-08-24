@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import icon from "../images/portfolio/ICONS/icon";
 import p1 from "../images/portfolio/Pictures/p1.png";
 import p2 from "../images/portfolio/Pictures/p2.png";
+import AOS from "aos";
 
-const PortfolioComponent = ({ AOS }) => {
+const PortfolioComponent = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -44,29 +45,33 @@ const PortfolioComponent = ({ AOS }) => {
                   <small className="text-body-secondary">
                     <Link
                       className="btn "
+                      target="_blank"
                       to={"https://courseweb-0w0l.onrender.com/"}
                     >
                       點我前往學習網站
                     </Link>
                     <Link
                       className="btn"
+                      target="_blank"
                       to={"https://github.com/YenLin01/Course-FrontEnd"}
                     >
                       Front-End Code <img src={icon.github} alt="github"></img>
                     </Link>
                     <Link
                       className="btn"
+                      target="_blank"
                       to={"https://github.com/YenLin01/Course-BackEnd"}
                     >
                       Back-End Code <img src={icon.github} alt="github"></img>
                     </Link>
                     <Link
                       className="btn"
+                      target="_blank"
                       to={
                         "https://www.youtube.com/watch?v=hqlJrNirj_Y&ab_channel=%E6%9E%97%E5%90%9B%E5%BD%A5"
                       }
                     >
-                      <img src={icon.youtube} ait="youtube"></img>
+                      <img src={icon.youtube} alt="youtube"></img>
                     </Link>
                   </small>
                 </p>
@@ -99,18 +104,27 @@ const PortfolioComponent = ({ AOS }) => {
                 </p>
                 <p className="card-text">
                   <small className="text-body-secondary">
-                    <Link className="btn " to={"https://imgweb.onrender.com/"}>
+                    <Link
+                      className="btn "
+                      target="_blank"
+                      to={"https://imgweb.onrender.com/"}
+                    >
                       點我前往圖片網站
                     </Link>
                     <Link
                       className="btn"
+                      target="_blank"
                       to={"https://github.com/YenLin01/p8_img_webside"}
                     >
                       Front-End Code <img src={icon.github} alt="github"></img>
                     </Link>
 
-                    <Link className="btn" to={"https://youtu.be/x_ajLoc3mCI"}>
-                      <img src={icon.youtube} ait="youtube"></img>
+                    <Link
+                      className="btn"
+                      target="_blank"
+                      to={"https://youtu.be/x_ajLoc3mCI"}
+                    >
+                      <img src={icon.youtube} alt="youtube"></img>
                     </Link>
                   </small>
                 </p>

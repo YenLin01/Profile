@@ -52,7 +52,7 @@ export const HomePageComponent = () => {
             </p>
             <p data-aos-delay="450" data-aos="zoom-in">
               當苦惱人生下一階段該怎麼走時，嘗試了Coding，學習了網頁全端相關的知識，
-              不斷挑戰自己未知的領域，
+              不斷挑戰自己未知的領域。
             </p>
             <p data-aos-delay="600" data-aos="zoom-in">
               在學習Coding的過程中，我真正感受到了學習的樂趣。隨著學習的開始，在不斷的解題與思考中得到了成就感與樂趣!

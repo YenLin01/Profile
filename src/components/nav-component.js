@@ -22,6 +22,7 @@ const NavComponent = () => {
             <Link
               className="NavD"
               to="https://drive.google.com/file/d/1GtWX_X0Q2O5djqg8tMw8nvglEgKXaMqy/view"
+              target="_blank"
             >
               履歷表
             </Link>
