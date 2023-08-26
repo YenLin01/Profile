@@ -119,6 +119,22 @@ h3, .h3 {
   font-size: 0.5rem;
 }
 
+@media (min-width: 1400px) {
+  .HeaderDiv {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 1200px) {
+  .ProblemBox div {
+    width: 70%;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #eae4e4;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0.3rem 1rem;
+  }
+}
 @media (max-width: 990px) {
   .headPandT img {
     width: 100%;
@@ -137,23 +153,7 @@ h3, .h3 {
     height: 30%;
   }
   .ProblemBox div {
-    width: 70%;
-  }
-}
-@media (max-width: 1200px) {
-  .ProblemBox div {
-    width: 50%;
-    color: black;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: #eae4e4;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 0.3rem 1rem;
-  }
-}
-@media (min-width: 1400px) {
-  .HeaderDiv {
-    padding-top: 3rem;
+    width: 100%;
   }
 }
 :root,
