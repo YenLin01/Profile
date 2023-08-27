@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import icon from "../images/portfolio/ICONS/icon";
 import p1 from "../images/portfolio/Pictures/p1.png";
 import p2 from "../images/portfolio/Pictures/p2.png";
+
 import AOS from "aos";
 
 const PortfolioComponent = () => {
@@ -29,18 +30,22 @@ const PortfolioComponent = () => {
           style={{ marginTop: "1rem", border: "none" }}
         >
           <div data-aos="fade-right" className="shadow row g-0">
-            <div className="col-md-4">
-              <img src={p1} className="img-fluid rounded-start" alt="..." />
+            <div className="col-md-4 ImgContainer">
+              <img
+                style={{ height: "11rem" }}
+                src={p1}
+                className="img-fluid rounded-start"
+                alt="..."
+              />
             </div>
             <div className="col-md-8">
               <div className="card-body">
                 <h2 className="card-title">學習網站</h2>
                 <p className="card-text">
                   主要使用MERN 所製作的全端專案，使用者能以學生或者老師的身分
-                  去註冊、登入會員並且因身分不同而有不同的功能。
-                  <br />
-                  在功能上還有將先前所學的TodoList融合到Project當中
+                  去註冊、登入會員並且因身分不同而有不同的功能。在功能上還有將先前所學的TodoList融合到Project當中
                 </p>
+
                 <p className="card-text">
                   <small className="text-body-secondary">
                     <Link
@@ -48,21 +53,21 @@ const PortfolioComponent = () => {
                       target="_blank"
                       to={"https://courseweb-0w0l.onrender.com/"}
                     >
-                      點我前往學習網站
+                      前往學習網站
                     </Link>
                     <Link
                       className="btn"
                       target="_blank"
                       to={"https://github.com/YenLin01/Course-FrontEnd"}
                     >
-                      Front-End Code <img src={icon.github} alt="github"></img>
+                      Front-End <img src={icon.github} alt="github"></img>
                     </Link>
                     <Link
                       className="btn"
                       target="_blank"
                       to={"https://github.com/YenLin01/Course-BackEnd"}
                     >
-                      Back-End Code <img src={icon.github} alt="github"></img>
+                      Back-End <img src={icon.github} alt="github"></img>
                     </Link>
                     <Link
                       className="btn"
@@ -109,7 +114,7 @@ const PortfolioComponent = () => {
                       target="_blank"
                       to={"https://imgweb.onrender.com/"}
                     >
-                      點我前往圖片網站
+                      前往圖片網站
                     </Link>
                     <Link
                       className="btn"
@@ -133,6 +138,7 @@ const PortfolioComponent = () => {
           </div>
         </div>
       </main>
+      <div className="footerWhite"></div>
     </div>
   );
 };
