@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import icon from "../images/portfolio/ICONS/icon";
 import p1 from "../images/portfolio/Pictures/p1.png";
 import p2 from "../images/portfolio/Pictures/p2.png";
+import p3 from "../images/portfolio/Pictures/p3.jpg";
 
 import AOS from "aos";
 
@@ -31,12 +32,7 @@ const PortfolioComponent = () => {
         >
           <div data-aos="fade-right" className="shadow row g-0">
             <div className="col-md-4 ImgContainer">
-              <img
-                style={{ height: "11rem" }}
-                src={p1}
-                className="img-fluid rounded-start"
-                alt="..."
-              />
+              <img src={p1} className="img-fluid rounded-start" alt="..." />
             </div>
             <div className="col-md-8">
               <div className="card-body">
@@ -90,12 +86,7 @@ const PortfolioComponent = () => {
             className="shadow row g-0"
           >
             <div className="col-md-4 ImgContainer">
-              <img
-                style={{ height: "14rem" }}
-                src={p2}
-                className="img-fluid rounded-start"
-                alt="..."
-              />
+              <img src={p2} className="img-fluid rounded-start" alt="..." />
             </div>
             <div className=" col-md-8">
               <div className="card-body">
@@ -130,6 +121,55 @@ const PortfolioComponent = () => {
                       to={"https://youtu.be/x_ajLoc3mCI"}
                     >
                       <img src={icon.youtube} alt="youtube"></img>
+                    </Link>
+                  </small>
+                </p>
+              </div>
+            </div>
+          </div>
+          {/* third profolio */}
+          <div
+            data-aos="fade-right"
+            data-aos-delay="100"
+            style={{ paddingTop: "20px" }}
+            className="shadow row g-0"
+          >
+            <div className="col-md-4 ImgContainer">
+              <img
+                style={{}}
+                src={p3}
+                className="img-fluid rounded-start"
+                alt="..."
+              />
+            </div>
+            <div className=" col-md-8">
+              <div className="card-body">
+                <h2 className="card-title">Pomodoro</h2>
+                <br />
+                <p className="card-text">
+                  番茄鐘工作法是一種時間管理方法，
+                  該方法使用一個定時器來分割出一個一般為25分鐘的工作時間和5分鐘的休息時間，這稱之為一節。而每四節就會給予一個25分鐘的休息時間。
+                  <br />
+                  而這個網頁就是使用此概念所製作的，使用React 和
+                  簡單的數學所製作的番茄鐘計時器，可以計算目前進行的總時數、節數與已經經過幾輪。
+                  <br />
+                  <br />
+                </p>
+                <p className="card-text">
+                  <small className="text-body-secondary">
+                    <Link
+                      className="btn "
+                      target="_blank"
+                      to={"https://timer-2t59.onrender.com/"}
+                    >
+                      前往Pomodoro
+                    </Link>
+                    <Link
+                      className="btn"
+                      target="_blank"
+                      to={"https://github.com/YenLin01/Timer"}
+                    >
+                      Front-End Code <img src={icon.github} alt="github"></img>
                     </Link>
                   </small>
                 </p>
