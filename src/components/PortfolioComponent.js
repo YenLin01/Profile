@@ -20,8 +20,9 @@ const PortfolioComponent = () => {
             <div data-aos="fade-up" className="col-lg-6 col-md-8 mx-auto">
               <h1 className="fw-light">作品集</h1>
               <p className="lead text-body-secondary">
-                每個專案在 github 上有相關的程式碼,
-                在Youtube上則有對於網頁上功能的說明。
+                每個專案在 github
+                上皆有相關的程式碼,在Youtube上則有對於網頁上功能的說明。
+                除此之外演算法的練習也在gitHub上有興趣可以去看看
               </p>
             </div>
           </div>
